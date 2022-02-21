@@ -15,7 +15,9 @@ Pod::Spec.new do |s|
   s.author             = { "finclip" => "contact@finogeeks.com" }
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = "9.0"
-  s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinClipBLEExtSDK-2.35.11.zip"  }
+  s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinAppletBLE-2.35.11.zip"  }
+  s.source_files  = "Headers/**/*.h"
   s.vendored_frameworks = "FinAppletBLE.framework" 
+  s.libraries = 'c++'
   s.dependency 'FinAppletExt','2.35.11'
 end

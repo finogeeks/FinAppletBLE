@@ -1,0 +1,6 @@
+framework module FinAppletBLE {
+  umbrella header "FinAppletBLE.h"
+
+  export *
+  module * { export * }
+}
