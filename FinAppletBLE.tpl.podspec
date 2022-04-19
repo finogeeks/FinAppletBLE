@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = "9.0"
   s.source       = { :http => "https://app.finogeeks.com/finchat/sdk/FinAppletBLE-_FinAppletBLE_version_.zip"  }
-  s.source_files  = "Headers/**/*.h"
   s.vendored_frameworks = "FinAppletBLE.framework" 
   s.libraries = 'c++'
   s.dependency 'FinAppletExt','_FinAppletBLE_version_'
