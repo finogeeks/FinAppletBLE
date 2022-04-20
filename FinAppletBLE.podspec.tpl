@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "_FinAppletBLE_version_"
   s.summary      = "FinAppletBLE sdk."
   s.description  = <<-DESC
-                    this is common
+                    this is FinAppletBLE sdk.
                    DESC
   s.homepage     = "https://www.finclip.com"
   s.license      = {
