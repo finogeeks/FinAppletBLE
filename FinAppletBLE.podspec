@@ -19,4 +19,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "FinAppletBLE.framework" 
   s.libraries = 'c++'
   s.dependency 'FinAppletExt','2.36.5'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
